@@ -1,0 +1,67 @@
+{
+  "validation": {
+    "units": {
+      "target": "units",
+      "n_train": 187295,
+      "n_holdout": 46824,
+      "rmse_model": 5.274831669400409,
+      "mape_model": 0.42511310352781295,
+      "rmse_naive": 8.927442827306136,
+      "mape_naive": 0.6052797737488722,
+      "rmse_naive_sp": 7.386651663661511,
+      "mape_naive_sp": 0.5016144443936703,
+      "calibration": 1.0007912817927098
+    },
+    "hhs": {
+      "target": "hhs",
+      "n_train": 187295,
+      "n_holdout": 46824,
+      "rmse_model": 4.368949767350749,
+      "mape_model": 0.40235639224616115,
+      "rmse_naive": 7.356963316109478,
+      "mape_naive": 0.5718352471472724,
+      "rmse_naive_sp": 6.027313393932316,
+      "mape_naive_sp": 0.4750888401756145,
+      "calibration": 1.0006121860650343
+    }
+  },
+  "n_events": 49384,
+  "share_with_controls": 0.21865381500081,
+  "placebo_mean": -0.014565507070676194,
+  "placebo_lo": -0.08336924910870454,
+  "placebo_hi": 0.05564162585464347,
+  "placebo_share": -0.0009531311926643998,
+  "post_promo_ratio": 1.0294259774572498,
+  "overall": [
+    {
+      "method": "A (all events)",
+      "n_events": 49384,
+      "mean_incr_units": 49.00250379553483,
+      "incr_lo": 48.036493752701055,
+      "incr_hi": 50.15259148676569,
+      "lift_pct": 1.1051843387764826,
+      "lift_lo": 1.0823179938415481,
+      "lift_hi": 1.129757656656379
+    },
+    {
+      "method": "A (events with controls)",
+      "n_events": 10798,
+      "mean_incr_units": 19.14700649334616,
+      "incr_lo": 18.037720318946505,
+      "incr_hi": 20.32414348643994,
+      "lift_pct": 0.39262177719190033,
+      "lift_lo": 0.3726019257666526,
+      "lift_hi": 0.41520268701449137
+    },
+    {
+      "method": "B (events with controls)",
+      "n_events": 10798,
+      "mean_incr_units": 16.09049399669748,
+      "incr_lo": 14.95877474026097,
+      "incr_hi": 17.121099475309897,
+      "lift_pct": 0.31048605507583715,
+      "lift_lo": 0.2892598939415961,
+      "lift_hi": 0.332484367420217
+    }
+  ]
+}
