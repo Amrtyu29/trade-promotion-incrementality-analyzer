@@ -1,21 +1,11 @@
-# Data
-data/raw/*
-data/processed/*
-!data/**/.gitkeep
-
-# Python
+﻿.venv/
+data/raw/
+data/processed/*.parquet
+data/processed/*.db
 __pycache__/
-*.py[cod]
-.venv/
-venv/
 .ipynb_checkpoints/
-.python-version
+*.pyc
 
-# Env / secrets
-.env
-*.key
+.claude/
+outputs/00_profile_raw.txt
 
-# OS / editors
-.DS_Store
-.vscode/
-.idea/
