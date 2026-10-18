@@ -1,0 +1,308 @@
+{
+  "assumptions": {
+    "margin_rate": 0.3,
+    "cost_feature": 150.0,
+    "cost_display": 100.0,
+    "discount_by_type": {
+      "display+price": 0.20139954321475137,
+      "display_only": 0.0,
+      "feature+display": 0.0,
+      "feature+display+price": 0.24949371619413407,
+      "feature+price": 0.24473498787132386,
+      "feature_only": 0.0,
+      "price_only": 0.20437756153586886
+    },
+    "min_events": 30
+  },
+  "sweep": [
+    {
+      "n_promos": 47,
+      "spend": 1999.9073512637194,
+      "incr_units": 2374.458347809324,
+      "incr_units_lo": 1717.6912331152769,
+      "incr_margin": 2274.040711333004,
+      "incr_margin_lo": 1647.2401509923689,
+      "mix": {
+        "price_only": 46,
+        "display_only": 1
+      },
+      "by_category": {
+        "COLD CEREAL": 2374.0
+      },
+      "budget": 2000,
+      "objective": "incr_margin",
+      "solve_s": 5.3,
+      "status": "Optimal",
+      "roi_point": 1.1370730298561393,
+      "roi_lo": 0.8236582309432964
+    },
+    {
+      "n_promos": 47,
+      "spend": 1999.8355222542555,
+      "incr_units": 992.1936400662162,
+      "incr_units_lo": 862.6187772893069,
+      "incr_margin": 2004.2655891555373,
+      "incr_margin_lo": 1742.5198691709,
+      "mix": {
+        "price_only": 47
+      },
+      "by_category": {
+        "FROZEN PIZZA": 992.0
+      },
+      "budget": 2000,
+      "objective": "incr_margin_lo",
+      "solve_s": 4.7,
+      "status": "Optimal",
+      "roi_point": 1.0022152156274773,
+      "roi_lo": 0.871331591913467
+    },
+    {
+      "n_promos": 112,
+      "spend": 4999.961811510524,
+      "incr_units": 5317.031608896752,
+      "incr_units_lo": 3956.1461722719323,
+      "incr_margin": 5536.384451890064,
+      "incr_margin_lo": 4185.661962615345,
+      "mix": {
+        "price_only": 110,
+        "display_only": 2
+      },
+      "by_category": {
+        "COLD CEREAL": 4825.0,
+        "FROZEN PIZZA": 492.0
+      },
+      "budget": 5000,
+      "objective": "incr_margin",
+      "solve_s": 5.4,
+      "status": "Optimal",
+      "roi_point": 1.1072853474889808,
+      "roi_lo": 0.8371387863362154
+    },
+    {
+      "n_promos": 135,
+      "spend": 4999.9859435433145,
+      "incr_units": 2463.9000057529865,
+      "incr_units_lo": 2144.011868039339,
+      "incr_margin": 4997.901420309331,
+      "incr_margin_lo": 4349.2115133833995,
+      "mix": {
+        "price_only": 135
+      },
+      "by_category": {
+        "COLD CEREAL": 6.0,
+        "FROZEN PIZZA": 2456.0,
+        "ORAL HYGIENE PRODUCTS": 1.0
+      },
+      "budget": 5000,
+      "objective": "incr_margin_lo",
+      "solve_s": 6.4,
+      "status": "Optimal",
+      "roi_point": 0.9995830941811596,
+      "roi_lo": 0.8698447480636847
+    },
+    {
+      "n_promos": 281,
+      "spend": 9999.954151691509,
+      "incr_units": 8563.756307626889,
+      "incr_units_lo": 6735.671102347593,
+      "incr_margin": 10533.975761641592,
+      "incr_margin_lo": 8495.287828808277,
+      "mix": {
+        "price_only": 279,
+        "display_only": 2
+      },
+      "by_category": {
+        "COLD CEREAL": 6209.0,
+        "FROZEN PIZZA": 2355.0
+      },
+      "budget": 10000,
+      "objective": "incr_margin",
+      "solve_s": 7.2,
+      "status": "Optimal",
+      "roi_point": 1.053402405836006,
+      "roi_lo": 0.8495326778444565
+    },
+    {
+      "n_promos": 279,
+      "spend": 9999.987378106114,
+      "incr_units": 7960.345980921357,
+      "incr_units_lo": 6321.306148041251,
+      "incr_margin": 10510.032329444832,
+      "incr_margin_lo": 8576.335518563432,
+      "mix": {
+        "price_only": 279
+      },
+      "by_category": {
+        "COLD CEREAL": 5160.0,
+        "FROZEN PIZZA": 2800.0
+      },
+      "budget": 10000,
+      "objective": "incr_margin_lo",
+      "solve_s": 5.2,
+      "status": "Optimal",
+      "roi_point": 1.0510045595112856,
+      "roi_lo": 0.8576346343536779
+    },
+    {
+      "n_promos": 731,
+      "spend": 19999.982580190284,
+      "incr_units": 17258.474904051494,
+      "incr_units_lo": 13656.237346450604,
+      "incr_margin": 19701.32555947487,
+      "incr_margin_lo": 15931.163864009122,
+      "mix": {
+        "price_only": 725,
+        "display_only": 6
+      },
+      "by_category": {
+        "COLD CEREAL": 12875.0,
+        "FROZEN PIZZA": 4182.0,
+        "ORAL HYGIENE PRODUCTS": 201.0
+      },
+      "budget": 20000,
+      "objective": "incr_margin",
+      "solve_s": 6.4,
+      "status": "Optimal",
+      "roi_point": 0.9850671359578468,
+      "roi_lo": 0.796558886995668
+    },
+    {
+      "n_promos": 875,
+      "spend": 19999.987207605485,
+      "incr_units": 15990.24111327857,
+      "incr_units_lo": 12984.920024503623,
+      "incr_margin": 19499.63749328075,
+      "incr_margin_lo": 16113.435638452387,
+      "mix": {
+        "price_only": 873,
+        "display_only": 2
+      },
+      "by_category": {
+        "COLD CEREAL": 10065.0,
+        "FROZEN PIZZA": 5436.0,
+        "ORAL HYGIENE PRODUCTS": 490.0
+      },
+      "budget": 20000,
+      "objective": "incr_margin_lo",
+      "solve_s": 9.8,
+      "status": "Optimal",
+      "roi_point": 0.9749824982820756,
+      "roi_lo": 0.8056722972465131
+    },
+    {
+      "n_promos": 1875,
+      "spend": 39999.97012263704,
+      "incr_units": 28977.393318814313,
+      "incr_units_lo": 22818.13859148677,
+      "incr_margin": 33990.444214526105,
+      "incr_margin_lo": 27183.777024442817,
+      "mix": {
+        "price_only": 1832,
+        "display_only": 26,
+        "display+price": 13,
+        "feature+price": 2,
+        "feature+display": 1,
+        "feature_only": 1
+      },
+      "by_category": {
+        "BAG SNACKS": 1.0,
+        "COLD CEREAL": 18910.0,
+        "FROZEN PIZZA": 8549.0,
+        "ORAL HYGIENE PRODUCTS": 1517.0
+      },
+      "budget": 40000,
+      "objective": "incr_margin",
+      "solve_s": 6.2,
+      "status": "Optimal",
+      "roi_point": 0.8497617400791512,
+      "roi_lo": 0.6795949332236826
+    },
+    {
+      "n_promos": 1853,
+      "spend": 39999.99805214702,
+      "incr_units": 28359.34576195498,
+      "incr_units_lo": 23292.29680127767,
+      "incr_margin": 33418.45939344185,
+      "incr_margin_lo": 27790.03635393094,
+      "mix": {
+        "price_only": 1818,
+        "display+price": 12,
+        "feature+price": 11,
+        "display_only": 6,
+        "feature+display": 5,
+        "feature_only": 1
+      },
+      "by_category": {
+        "BAG SNACKS": 367.0,
+        "COLD CEREAL": 17873.0,
+        "FROZEN PIZZA": 8609.0,
+        "ORAL HYGIENE PRODUCTS": 1510.0
+      },
+      "budget": 40000,
+      "objective": "incr_margin_lo",
+      "solve_s": 6.1,
+      "status": "Optimal",
+      "roi_point": 0.8354615255199518,
+      "roi_lo": 0.6947509426800909
+    },
+    {
+      "n_promos": 2887,
+      "spend": 79999.95343594532,
+      "incr_units": 46936.926205252246,
+      "incr_units_lo": 38719.82873312324,
+      "incr_margin": 51942.78346760062,
+      "incr_margin_lo": 43166.359484864646,
+      "mix": {
+        "price_only": 2707,
+        "display+price": 76,
+        "display_only": 50,
+        "feature+price": 29,
+        "feature+display+price": 14,
+        "feature+display": 6,
+        "feature_only": 5
+      },
+      "by_category": {
+        "BAG SNACKS": 3886.0,
+        "COLD CEREAL": 31323.0,
+        "FROZEN PIZZA": 10132.0,
+        "ORAL HYGIENE PRODUCTS": 1596.0
+      },
+      "budget": 80000,
+      "objective": "incr_margin",
+      "solve_s": 11.4,
+      "status": "Optimal",
+      "roi_point": 0.6492851712618853,
+      "roi_lo": 0.5395798076236039
+    },
+    {
+      "n_promos": 2636,
+      "spend": 79999.97570809352,
+      "incr_units": 46423.72293019468,
+      "incr_units_lo": 39022.120957415565,
+      "incr_margin": 51656.57046869263,
+      "incr_margin_lo": 43614.51160346993,
+      "mix": {
+        "price_only": 2485,
+        "display+price": 62,
+        "feature+price": 42,
+        "feature+display+price": 19,
+        "feature+display": 12,
+        "display_only": 11,
+        "feature_only": 5
+      },
+      "by_category": {
+        "BAG SNACKS": 3337.0,
+        "COLD CEREAL": 31629.0,
+        "FROZEN PIZZA": 9937.0,
+        "ORAL HYGIENE PRODUCTS": 1520.0
+      },
+      "budget": 80000,
+      "objective": "incr_margin_lo",
+      "solve_s": 10.5,
+      "status": "Optimal",
+      "roi_point": 0.6457073269269329,
+      "roi_lo": 0.5451815605871176
+    }
+  ],
+  "overlap_at_20k": 0.8878248974008208
+}
