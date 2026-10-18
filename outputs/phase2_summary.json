@@ -1,0 +1,351 @@
+{
+  "pullforward": {
+    "n_events": 25347,
+    "in_week_incr_mean": 58.19301375545435,
+    "post_incr_mean": 1.479807865345996,
+    "net_incr_mean": 59.67282162080035,
+    "in_week_lift_pct": 1.1750374973782278,
+    "in_week_lift_lo": 1.142230969087169,
+    "in_week_lift_hi": 1.2077652497704012,
+    "net_lift_pct": 1.2049178836734606,
+    "net_lift_lo": 1.171078552614699,
+    "net_lift_hi": 1.2379581887807884,
+    "pullforward_ratio": -0.025429304479135828,
+    "pullforward_lo": -0.029378550392767443,
+    "pullforward_hi": -0.021365887682790595
+  },
+  "pullforward_adjusted": {
+    "ratio": 0.0006833159494966656,
+    "lo": -0.004080838222384614,
+    "hi": 0.005211321061880338,
+    "pre_resid_per_week": 0.3453413391305384,
+    "post_resid_per_week": 0.3351654358161034,
+    "n": 24074
+  },
+  "pullforward_by_category": [
+    {
+      "category": "BAG SNACKS",
+      "n_events": 4742,
+      "in_week_incr_mean": 30.978977242476297,
+      "post_incr_mean": 1.244024819285238,
+      "pullforward_ratio": -0.040157065533445335,
+      "lo": -0.0610545238163466,
+      "hi": -0.020641480361973618
+    },
+    {
+      "category": "COLD CEREAL",
+      "n_events": 10067,
+      "in_week_incr_mean": 94.82520897279267,
+      "post_incr_mean": 2.5383858393863576,
+      "pullforward_ratio": -0.026769103563111463,
+      "lo": -0.03159622089884563,
+      "hi": -0.02155146861303237
+    },
+    {
+      "category": "FROZEN PIZZA",
+      "n_events": 6562,
+      "in_week_incr_mean": 48.27124802074178,
+      "post_incr_mean": 0.7465838111852586,
+      "pullforward_ratio": -0.015466428604963056,
+      "lo": -0.022209078263795985,
+      "hi": -0.008802907092343699
+    },
+    {
+      "category": "ORAL HYGIENE PRODUCTS",
+      "n_events": 3976,
+      "in_week_incr_mean": 14.274321261183992,
+      "post_incr_mean": 0.2908730019552912,
+      "pullforward_ratio": -0.020377361321288312,
+      "lo": -0.03410708650824475,
+      "hi": -0.007047358809046959
+    }
+  ],
+  "lift_by_depth": [
+    {
+      "depth_bin": "<=5% (no cut)",
+      "n_events": 5803,
+      "mean_incr_units": 29.847320177748475,
+      "incr_lo": 25.898649362542958,
+      "incr_hi": 34.25019693929036,
+      "lift_pct": 0.4603330654157964,
+      "lift_lo": 0.4171253849424756,
+      "lift_hi": 0.5130189237283977,
+      "pullforward_ratio": -0.1702250402158978,
+      "pf_lo": -0.20460964476405893,
+      "pf_hi": -0.13970000447779815
+    },
+    {
+      "depth_bin": "5-15%",
+      "n_events": 11388,
+      "mean_incr_units": 30.27611147505192,
+      "incr_lo": 28.79887132364865,
+      "incr_hi": 31.565463807396018,
+      "lift_pct": 0.607443943040194,
+      "lift_lo": 0.5873543201756335,
+      "lift_hi": 0.6276606823443281,
+      "pullforward_ratio": -0.013454730228847689,
+      "pf_lo": -0.029019465168315866,
+      "pf_hi": 0.0005645288569090393
+    },
+    {
+      "depth_bin": "15-25%",
+      "n_events": 17471,
+      "mean_incr_units": 41.45349239716995,
+      "incr_lo": 40.24026257339746,
+      "incr_hi": 42.61759747505497,
+      "lift_pct": 0.9336581177129748,
+      "lift_lo": 0.9059227339787231,
+      "lift_hi": 0.9574256287129485,
+      "pullforward_ratio": -0.03644667781387212,
+      "pf_lo": -0.04450413547104198,
+      "pf_hi": -0.02875216726247858
+    },
+    {
+      "depth_bin": "25-35%",
+      "n_events": 9927,
+      "mean_incr_units": 70.2644982539278,
+      "incr_lo": 67.46604920233126,
+      "incr_hi": 72.73282331649497,
+      "lift_pct": 2.1410548084138616,
+      "lift_lo": 2.0669303882208294,
+      "lift_hi": 2.2120296418394547,
+      "pullforward_ratio": -0.0126147005257371,
+      "pf_lo": -0.019177762108461737,
+      "pf_hi": -0.0060847688236245565
+    },
+    {
+      "depth_bin": ">35%",
+      "n_events": 4795,
+      "mean_incr_units": 100.14632974590796,
+      "incr_lo": 95.18880795689458,
+      "incr_hi": 105.8870271218997,
+      "lift_pct": 3.327977227466758,
+      "lift_lo": 3.1714305869810184,
+      "lift_hi": 3.5056092110517216,
+      "pullforward_ratio": 0.0018150977995110562,
+      "pf_lo": -0.0028878871400184413,
+      "pf_hi": 0.006516353809599809
+    }
+  ],
+  "promo_types": [
+    {
+      "promo_type": "feature+display+price",
+      "n_events": 9956,
+      "mean_incr_units": 112.31717362664912,
+      "incr_lo": 108.89874909808998,
+      "incr_hi": 115.553023514767,
+      "lift_pct": 2.743669577614648,
+      "lift_lo": 2.6725454541253812,
+      "lift_hi": 2.811507154269968,
+      "incr_per_week": 44.18056182044842,
+      "mean_discount": 0.24949371619413407,
+      "mean_run_len": 2.825431900361591
+    },
+    {
+      "promo_type": "feature+price",
+      "n_events": 9409,
+      "mean_incr_units": 47.78767816324518,
+      "incr_lo": 45.81667364117931,
+      "incr_hi": 49.874652283746684,
+      "lift_pct": 1.6579511770635345,
+      "lift_lo": 1.591070426656675,
+      "lift_hi": 1.7221155834739093,
+      "incr_per_week": 20.622663572371568,
+      "mean_discount": 0.24473498787132386,
+      "mean_run_len": 2.6900839621638855
+    },
+    {
+      "promo_type": "feature+display",
+      "n_events": 887,
+      "mean_incr_units": 45.36195541318557,
+      "incr_lo": 41.644576809557364,
+      "incr_hi": 49.16730734743183,
+      "lift_pct": 1.4951557305548389,
+      "lift_lo": 1.3919195414062953,
+      "lift_hi": 1.6009603138280173,
+      "incr_per_week": 29.396128783209438,
+      "mean_discount": 0.025077073999216593,
+      "mean_run_len": 1.8489289740698986
+    },
+    {
+      "promo_type": "display+price",
+      "n_events": 3081,
+      "mean_incr_units": 60.414953660294394,
+      "incr_lo": 56.31449180092919,
+      "incr_hi": 64.91910097820237,
+      "lift_pct": 1.14310724921942,
+      "lift_lo": 1.0576381634143242,
+      "lift_hi": 1.2316497266855893,
+      "incr_per_week": 18.63116358500334,
+      "mean_discount": 0.20139954321475137,
+      "mean_run_len": 3.7702044790652387
+    },
+    {
+      "promo_type": "feature_only",
+      "n_events": 1524,
+      "mean_incr_units": 19.419341897756084,
+      "incr_lo": 17.327811799559157,
+      "incr_hi": 21.548059031119863,
+      "lift_pct": 0.6415035869733883,
+      "lift_lo": 0.5868483791490422,
+      "lift_hi": 0.693123484930127,
+      "incr_per_week": 9.850429628960484,
+      "mean_discount": 0.021410648551192502,
+      "mean_run_len": 1.7001312335958005
+    },
+    {
+      "promo_type": "price_only",
+      "n_events": 20324,
+      "mean_incr_units": 20.41074819796409,
+      "incr_lo": 19.566260701662134,
+      "incr_hi": 21.350278933016597,
+      "lift_pct": 0.4701384459261668,
+      "lift_lo": 0.45341758921208175,
+      "lift_hi": 0.4884952785174618,
+      "incr_per_week": 4.805897395489215,
+      "mean_discount": 0.20437756153586886,
+      "mean_run_len": 3.211523322180673
+    },
+    {
+      "promo_type": "display_only",
+      "n_events": 4203,
+      "mean_incr_units": 43.13060977095751,
+      "incr_lo": 37.32151652575481,
+      "incr_hi": 49.6360245023684,
+      "lift_pct": 0.4617063849716569,
+      "lift_lo": 0.41374940433522805,
+      "lift_hi": 0.5169131339528183,
+      "incr_per_week": 7.602298260371053,
+      "mean_discount": 0.02857835291096017,
+      "mean_run_len": 3.527718296454913
+    }
+  ],
+  "volume_vs_penetration": {
+    "a": "volume",
+    "b": "penetration",
+    "diff": 0.05543705882844563,
+    "lo": -0.036668370188711816,
+    "hi": 0.1426023645138308,
+    "p_boot": 0.228,
+    "welch_t": -2.5202871581297184,
+    "welch_p": 0.011881412886479502,
+    "n_volume": 971,
+    "n_penetration": 19899
+  },
+  "decomposition": {
+    "share_penetration_driven": 0.9460877359485395,
+    "pen_share_mean": 0.9063676009716456,
+    "by_category": [
+      {
+        "category": "BAG SNACKS",
+        "events": 6916,
+        "pen_share_mean": 0.903652882003341,
+        "share_penetration_driven": 0.9089068825910931
+      },
+      {
+        "category": "COLD CEREAL",
+        "events": 12675,
+        "pen_share_mean": 0.8887954582264309,
+        "share_penetration_driven": 0.9562130177514793
+      },
+      {
+        "category": "FROZEN PIZZA",
+        "events": 10835,
+        "pen_share_mean": 0.9574685190074725,
+        "share_penetration_driven": 0.9776649746192894
+      },
+      {
+        "category": "ORAL HYGIENE PRODUCTS",
+        "events": 7506,
+        "pen_share_mean": 0.8647773343532348,
+        "share_penetration_driven": 0.9176658673061551
+      }
+    ],
+    "pullforward_by_driver": [
+      {
+        "driver": "volume",
+        "n_events": 971,
+        "in_week_incr_mean": 16.7727908793084,
+        "post_incr_mean": -0.26469017086387864,
+        "pullforward_ratio": 0.015780925951352165,
+        "lo": -0.07496293299949983,
+        "hi": 0.10275787804247258
+      },
+      {
+        "driver": "penetration",
+        "n_events": 19899,
+        "in_week_incr_mean": 74.19704378951951,
+        "post_incr_mean": 2.9423678276047154,
+        "pullforward_ratio": -0.039656132877093464,
+        "lo": -0.04358392841976326,
+        "hi": -0.036241562962991386
+      }
+    ],
+    "by_category_driver": [
+      {
+        "category": "BAG SNACKS",
+        "driver": "volume",
+        "n_events": 218,
+        "pullforward_ratio": -0.2669035790336476,
+        "lo": -0.429943258843368,
+        "hi": -0.05964007521031936
+      },
+      {
+        "category": "BAG SNACKS",
+        "driver": "penetration",
+        "n_events": 3180,
+        "pullforward_ratio": -0.09235363423512122,
+        "lo": -0.10858719914980888,
+        "hi": -0.07699065795365664
+      },
+      {
+        "category": "COLD CEREAL",
+        "driver": "volume",
+        "n_events": 419,
+        "pullforward_ratio": 0.10096058416637177,
+        "lo": -0.0038120743198130523,
+        "hi": 0.21844354684698455
+      },
+      {
+        "category": "COLD CEREAL",
+        "driver": "penetration",
+        "n_events": 8156,
+        "pullforward_ratio": -0.03482620835027417,
+        "lo": -0.039085147263547344,
+        "hi": -0.030274104392274688
+      },
+      {
+        "category": "FROZEN PIZZA",
+        "driver": "volume",
+        "n_events": 100,
+        "pullforward_ratio": -0.23112160159421502,
+        "lo": -0.6688842020503095,
+        "hi": 0.27500201172416777
+      },
+      {
+        "category": "FROZEN PIZZA",
+        "driver": "penetration",
+        "n_events": 5722,
+        "pullforward_ratio": -0.028000114559129985,
+        "lo": -0.03438561554269151,
+        "hi": -0.02153178792901999
+      },
+      {
+        "category": "ORAL HYGIENE PRODUCTS",
+        "driver": "volume",
+        "n_events": 234,
+        "pullforward_ratio": 0.09515002318393184,
+        "lo": 0.0068460591233510905,
+        "hi": 0.18330305472501535
+      },
+      {
+        "category": "ORAL HYGIENE PRODUCTS",
+        "driver": "penetration",
+        "n_events": 2841,
+        "pullforward_ratio": -0.04521693725283149,
+        "lo": -0.05701396649499882,
+        "hi": -0.03323241814058159
+      }
+    ]
+  }
+}
